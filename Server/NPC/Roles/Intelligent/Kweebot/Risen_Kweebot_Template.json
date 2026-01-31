@@ -183,8 +183,8 @@
     "DespawnTimer": {
       "Value": 30,
       "Description": "How long the NPC will remain before it despawns in seconds."
-    },
-
+    }
+    
   },
   "IsMemory": false,
   "BreathesInWater": { "Compute": "BreathesInWater" },
