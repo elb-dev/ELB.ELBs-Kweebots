@@ -1,0 +1,20 @@
+{
+  "Group": "ELB",
+  "Name": "ELBs Kweebots",
+  "Version": "1.0.0",
+  "Description": "Build Kweebots to fight along side you during your journeys!",
+  "Authors": [
+    {
+      "Name": "ELB",
+      "Email": "phantom.dev.elb@gmail.com",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
