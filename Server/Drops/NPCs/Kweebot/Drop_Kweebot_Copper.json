@@ -9,27 +9,13 @@
           {
             "Type": "Single",
             "Item": {
-              "ItemId": "Food_Chicken_Raw",
+              "ItemId": "Sleeping_Kweebot",
               "QuantityMin": 1,
-              "QuantityMax": 2
+              "QuantityMax": 1
             }
           }
         ]
       },
-      {
-        "Type": "Choice",
-        "Weight": 100,
-        "Containers": [
-          {
-            "Type": "Single",
-            "Item": {
-              "ItemId": "Ingredient_Hide_Light",
-              "QuantityMin": 1,
-              "QuantityMax": 2
-            }
-          }
-        ]
-      }
     ]
   }
 }
