@@ -183,8 +183,11 @@
     "DespawnTimer": {
       "Value": 30,
       "Description": "How long the NPC will remain before it despawns in seconds."
+    },
+    "DropList": {
+      "Value": "Empty",
+      "Description": "The NPC's drop list."
     }
-    
   },
   "IsMemory": false,
   "BreathesInWater": { "Compute": "BreathesInWater" },

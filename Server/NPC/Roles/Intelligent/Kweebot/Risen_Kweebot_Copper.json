@@ -19,7 +19,7 @@
     "Attack": "Root_NPC_Skeleton_Knight_Attack",
     "AttackDistance": 3,
     "DespawnTimer": 10,
-
+    "DropList": "Drop_Chicken",
     "DesiredAttackDistanceRange": [
       2,
       2.5
