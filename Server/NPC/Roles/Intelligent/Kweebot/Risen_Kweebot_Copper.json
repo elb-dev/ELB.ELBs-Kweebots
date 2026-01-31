@@ -5,7 +5,6 @@
     "MaxHealth": 74,
     "HearingRange": 8,
     "ViewSector": 270,
-    "Appearance": "Kweebec_Sapling_Razorleaf",
     "Weapons": [
       "Weapon_Sword_Steel_Rusty"
     ],
@@ -18,7 +17,7 @@
     ],
     "Attack": "Root_NPC_Skeleton_Knight_Attack",
     "AttackDistance": 3,
-    "DespawnTimer": 5,
+    "DespawnTimer": 500000,
     "DropList": "Drop_Kweebot_Copper",
     "DesiredAttackDistanceRange": [
       2,

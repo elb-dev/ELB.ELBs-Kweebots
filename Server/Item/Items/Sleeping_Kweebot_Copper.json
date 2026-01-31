@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Sleeping_Kweebot.name",
-    "Description": "items.Sleeping_Kweebot.description"
+    "Name": "items.Sleeping_Kweebot_Copper.name",
+    "Description": "items.Sleeping_Kweebot_Copper.description"
   },
   "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot.png",
   "Categories": [
@@ -30,15 +30,14 @@
       }
     },
     "BlockParticleSetId": "Stone",
-    "BlockSoundSetId": "Bone",
-    "HitboxType": "Plant_Small",
+    "BlockSoundSetId": "Wood",
     "Opacity": "Semitransparent",
     "Material": "Solid",
     "ParticleColor": "#dccd97"
   },
   "ResourceTypes": [
     {
-      "Id": "Bone"
+      "Id": "Salvage_Copper"
     }
   ],
   "PlayerAnimationsId": "Item",

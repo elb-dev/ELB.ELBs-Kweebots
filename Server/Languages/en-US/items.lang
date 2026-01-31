@@ -1,4 +1,12 @@
-Sleeping_Kweebot.name = Sleeping Kweebot
-Sleeping_Kweebot.description = A Kweebot without power.
+Sleeping_Kweebot_Copper.name = Sleeping Copper Kweebot
+Sleeping_Kweebot_Copper.description = A copper Kweebot without power.
+Sleeping_Kweebot_Iron.name = Sleeping Iron Kweebot
+Sleeping_Kweebot_Iron.description = A iron Kweebot without power.
+Sleeping_Kweebot_Thorium.name = Sleeping Thorium Kweebot
+Sleeping_Kweebot_Thorium.description = A thorium Kweebot without power.
+Sleeping_Kweebot_Cobalt.name = Sleeping Cobalt Kweebot
+Sleeping_Kweebot_Cobalt.description = A cobalt Kweebot without power.
+Sleeping_Kweebot_Adamantite.name = Sleeping Adamantite Kweebot
+Sleeping_Kweebot_Adamantite.description = A adamantite Kweebot without power.
 Weapon_Kweebot_Energize.name = Kweebot Energizer
 Weapon_Kweebot_Energize.description = The cell that powers up a Kweebot.

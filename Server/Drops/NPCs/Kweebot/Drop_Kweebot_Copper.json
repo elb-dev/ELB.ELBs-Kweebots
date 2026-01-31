@@ -1,21 +1,8 @@
 {
   "Container": {
-    "Type": "Multiple",
-    "Containers": [
-      {
-        "Type": "Choice",
-        "Weight": 100,
-        "Containers": [
-          {
-            "Type": "Single",
-            "Item": {
-              "ItemId": "Sleeping_Kweebot",
-              "QuantityMin": 1,
-              "QuantityMax": 1
-            }
-          }
-        ]
-      },
-    ]
+    "Type": "Single",
+    "Item": {
+      "ItemId": "Sleeping_Kweebot_Copper"
+    }
   }
 }
