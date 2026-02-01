@@ -1,7 +1,7 @@
 {
   "Parent": "Kweebec_Sapling",
   "Model": "NPC/Intelligent/Kweebot/Kweebot.blockymodel",
-  "Texture": "NPC/Intelligent/Kweebot/Textures/kweebot_copper.png",
+  "Texture": "NPC/Intelligent/Kweebot/Textures/kweebot_cobalt.png",
   "GradientSet": "Colored_Cotton",
   "DefaultAttachments": [
     {

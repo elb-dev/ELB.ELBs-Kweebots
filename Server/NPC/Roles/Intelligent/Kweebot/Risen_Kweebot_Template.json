@@ -19,7 +19,7 @@
       "Description": "The view sector within which the target needs to be to be seen."
     },
     "HearingRange": {
-      "Value": 8,
+      "Value": 10,
       "Description": "The range from which the target will be heard. If zero, hearing will be disabled."
     },
     "AbsoluteDetectionRange": {
@@ -64,11 +64,11 @@
       "Description": "The attack to use."
     },
     "AttackDistance": {
-      "Value": 2,
+      "Value": 3.25,
       "Description": "The distance at which an NPC will execute attacks"
     },
     "DesiredAttackDistanceRange": {
-      "Value": [ 1.5, 1.5 ],
+      "Value": [ 2.0, 3.25 ],
       "Description": "The distance within which the NPC wants to be from its target while attacking. The max value should be lower than AttackDistance."
     },
     "AttackPauseRange": {
