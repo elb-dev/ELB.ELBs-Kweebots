@@ -84,6 +84,10 @@
       "Value": 5,
       "Description": "The distance within which to switch from smart chasing to combat-oriented movement behavior."
     },
+    "AttackSequence": {
+      "Value": "Component_Instruction_Attack_Sequence_Kweebec_Sapling_Razorleaf",
+      "Description": "The attack sequence to use in combat"
+    },
     "CombatDirectWeight": {
       "Value": 10,
       "Description": "Weight for the direct combat movement behavior (i.e. just going straight at the target, maintaining a close distance and attacking. Set to 0 to disable."
