@@ -951,7 +951,7 @@
                                     {
                                       "id": "27",
                                       "name": "L-Attachment",
-                                      "position": {"x": 0, "y": 6, "z": 0},
+                                      "position": {"x": 0, "y": -0.00003, "z": 0},
                                       "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
                                       "shape": {
                                         "type": "none",
@@ -1150,7 +1150,7 @@
                                     {
                                       "id": "32",
                                       "name": "R-Attachment",
-                                      "position": {"x": 0, "y": 6, "z": 0},
+                                      "position": {"x": 0, "y": 0, "z": 0},
                                       "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
                                       "shape": {
                                         "type": "none",

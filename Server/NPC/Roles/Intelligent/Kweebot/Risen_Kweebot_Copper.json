@@ -5,17 +5,14 @@
     "MaxHealth": 105,
     "ViewSector": 270,
     "Weapons": [
-      "Weapon_Sword_Steel_Rusty"
-    ],
-    "OffHand": [
-      "Weapon_Shield_Rusty"
+      "Weapon_Spear_Leaf"
     ],
     "DefaultOffHandSlot": 0,
     "FlockArray": [
       "Risen_Knight"
     ],
     "Attack": "Root_NPC_Skeleton_Knight_Attack",
-    "DespawnTimer": 500000,
+    "DespawnTimer": 10,
     "DropList": "Drop_Kweebot_Copper",
     "ApplySeparation": true,
     "NameTranslationKey": "npcRoles.Risen_Kweebot_Copper.name"
