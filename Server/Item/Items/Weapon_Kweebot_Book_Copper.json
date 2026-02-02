@@ -8,22 +8,21 @@
   ],
   "Quality": "Common",
   "ItemLevel": 40,
-  "Model": "NPC/Void/Necromancer_Void/Models/Weapons/Spellbook/Demon.blockymodel",
-  "Texture": "NPC/Void/Necromancer_Void/Models/Weapons/Spellbook/Demon_Texture.png",
+  "Model": "Items/Weapons/Kweebot/Kweebot_Book.blockymodel",
+  "Texture": "Items/Weapons/Kweebot/Kweebot_Book_Copper.png",
   "PlayerAnimationsId": "Spellbook",
   "IconProperties": {
     "Scale": 0.6,
-    "Translation": [
-      -10,
-      -10
-    ],
     "Rotation": [
       45,
       90,
       0
+    ],
+    "Translation": [
+      -10,
+      -10
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Spellbook_Demon.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "MaxStack": 100,
   "Tags": {
@@ -71,46 +70,6 @@
                       {
                         "Type": "SpawnNPC",
                         "EntityId": "Risen_Kweebot_Adamantite"
-                      },
-                      {
-                        "Type": "DestroyBlock"
-                      },
-                      {
-                        "Type": "ModifyInventory",
-                        "AdjustHeldItemQuantity": -1
-                      }
-                    ]
-                  }
-                ]
-              },
-              "Next": {
-                "Type": "Simple",
-                "Effects": {
-                  "ItemAnimationId": "CastHurlCharged"
-                }
-              },
-              "Failed": {
-                "Type": "Simple",
-                "Effects": {
-                  "ItemAnimationId": "Interact"
-                }
-              }
-            },
-            "0.9": {
-              "Type": "RunOnBlockTypes",
-              "BlockSets": [
-                "Kweebot_Cobalt_Set"
-              ],
-              "MaxCount": 100,
-              "Range": 5,
-              "Interactions": {
-                "Interactions": [
-                  {
-                    "Type": "Serial",
-                    "Interactions": [
-                      {
-                        "Type": "SpawnNPC",
-                        "EntityId": "Risen_Kweebot_Cobalt"
                       },
                       {
                         "Type": "DestroyBlock"
@@ -215,5 +174,6 @@
         }
       ]
     }
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Copper.png"
 }
