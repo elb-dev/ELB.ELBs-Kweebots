@@ -1,3 +1,4 @@
 kweebot.build = Build
+kweebot.command = Activation Commands
 kweebot.upgrade = Upgrade
 kweebot.repair = Repair
