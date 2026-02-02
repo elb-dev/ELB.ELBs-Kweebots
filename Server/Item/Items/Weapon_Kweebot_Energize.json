@@ -135,7 +135,7 @@
                   "ItemAnimationId": "Interact"
                 }
               }
-            },
+            }
           },
           "Failed": {
             "Type": "Simple",
