@@ -59,5 +59,6 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Cobalt.png"
+  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Cobalt.png",
+  "ItemLevel": 4
 }

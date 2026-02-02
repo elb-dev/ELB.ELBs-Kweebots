@@ -60,7 +60,7 @@
       {
         "Id": "Kweebot_Bench",
         "Categories": [
-          "Kweebot_Build"
+          "Kweebot_Repair"
         ],
         "Type": "Crafting"
       }
@@ -68,22 +68,28 @@
     "Input": [
       {
         "ItemId": "Ingredient_Bar_Copper",
-        "Quantity": 12
+        "Quantity": 2
       },
       {
-        "Quantity": 12,
+        "Quantity": 2,
         "ResourceTypeId": "Wood_Trunk"
       },
       {
         "ItemId": "Ingredient_Fibre",
-        "Quantity": 9
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "ItemId": "Damaged_Kweebot_Copper",
         "Quantity": 1
       }
     ],
-    "TimeSeconds": 3
+    "TimeSeconds": 1,
+    "Output": [
+      {
+        "ItemId": "Sleeping_Kweebot_Copper"
+      }
+    ]
   },
-  "ItemLevel": 1
+  "ItemLevel": 0,
+  "Variant": true
 }

@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Sleeping_Kweebot_Copper.name",
-    "Description": "items.Sleeping_Kweebot_Copper.description"
+    "Name": "items.Sleeping_Kweebot_Iron.name",
+    "Description": "items.Sleeping_Kweebot_Iron.description"
   },
   "Categories": [
     "Blocks.Plants"
@@ -17,7 +17,7 @@
     "CustomModelTexture": [
       {
         "Weight": 1,
-        "Texture": "Blocks/Kweebot/Textures/Sleeping/kweebot_copper_sleeping.png"
+        "Texture": "Blocks/Kweebot/Textures/Sleeping/kweebot_iron_sleeping.png"
       }
     ],
     "Flags": {},
@@ -31,10 +31,15 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
-        "DropList": "Drop_Kweebot_Copper"
+        "DropList": "Drop_Kweebot_Iron"
       }
     }
   },
+  "ResourceTypes": [
+    {
+      "Id": "Salvage_Iron"
+    }
+  ],
   "PlayerAnimationsId": "Item",
   "Tags": {
     "Type": [
@@ -54,36 +59,42 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Copper.png",
+  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Iron.png",
   "Recipe": {
     "BenchRequirement": [
       {
         "Id": "Kweebot_Bench",
         "Categories": [
-          "Kweebot_Build"
+          "Kweebot_Repair"
         ],
         "Type": "Crafting"
       }
     ],
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Copper",
-        "Quantity": 12
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
       },
       {
-        "Quantity": 12,
-        "ResourceTypeId": "Wood_Trunk"
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Fibre",
-        "Quantity": 9
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "ItemId": "Damaged_Kweebot_Iron",
         "Quantity": 1
       }
     ],
-    "TimeSeconds": 3
+    "TimeSeconds": 1,
+    "Output": [
+      {
+        "ItemId": "Sleeping_Kweebot_Iron"
+      }
+    ]
   },
-  "ItemLevel": 1
+  "Variant": true,
+  "ItemLevel": 2
 }

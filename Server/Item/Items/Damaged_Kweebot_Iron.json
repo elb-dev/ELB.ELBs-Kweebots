@@ -59,5 +59,6 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Iron.png"
+  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Iron.png",
+  "ItemLevel": 2
 }

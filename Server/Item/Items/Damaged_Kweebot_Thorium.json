@@ -59,5 +59,6 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Thorium.png"
+  "Icon": "Icons/ItemsGenerated/Damaged_Kweebot_Thorium.png",
+  "ItemLevel": 3
 }

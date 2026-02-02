@@ -7,7 +7,7 @@
     "Items.Weapons"
   ],
   "Quality": "Common",
-  "ItemLevel": 40,
+  "ItemLevel": 4,
   "Model": "Items/Weapons/Kweebot/Kweebot_Book.blockymodel",
   "Texture": "Items/Weapons/Kweebot/Kweebot_Book_Cobalt.png",
   "PlayerAnimationsId": "Spellbook",
