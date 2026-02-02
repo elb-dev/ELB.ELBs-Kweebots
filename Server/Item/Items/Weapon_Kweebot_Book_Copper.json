@@ -175,5 +175,31 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Copper.png"
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Copper.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Kweebot_Bench",
+        "Categories": [
+          "Kweebot_Command"
+        ],
+        "Type": "Crafting"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      }
+    ],
+    "TimeSeconds": 0
+  }
 }

@@ -175,5 +175,35 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Cobalt.png"
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Cobalt.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Kweebot_Bench",
+        "Categories": [
+          "Kweebot_Command"
+        ],
+        "Type": "Crafting"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 40
+      }
+    ],
+    "TimeSeconds": 0
+  }
 }

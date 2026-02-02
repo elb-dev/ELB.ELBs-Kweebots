@@ -76,7 +76,7 @@
         "Quantity": 33
       },
       {
-        "ItemId": "Ingredient_Leather_Light",
+        "ItemId": "Ingredient_Leather_Heavy",
         "Quantity": 12
       },
       {
@@ -88,6 +88,6 @@
         "Quantity": 1
       }
     ],
-    "TimeSeconds": 3
+    "TimeSeconds": 1
   }
 }

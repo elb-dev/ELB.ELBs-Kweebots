@@ -175,5 +175,35 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Thorium.png"
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Thorium.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Kweebot_Bench",
+        "Categories": [
+          "Kweebot_Command"
+        ],
+        "Type": "Crafting"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 30
+      }
+    ],
+    "TimeSeconds": 0
+  }
 }

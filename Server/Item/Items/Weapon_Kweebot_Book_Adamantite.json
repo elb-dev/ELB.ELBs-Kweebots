@@ -175,5 +175,35 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Adamantite.png"
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Adamantite.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Kweebot_Bench",
+        "Categories": [
+          "Kweebot_Command"
+        ],
+        "Type": "Crafting"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 50
+      }
+    ],
+    "TimeSeconds": 0
+  }
 }
