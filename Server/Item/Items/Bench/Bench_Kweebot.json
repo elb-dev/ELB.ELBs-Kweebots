@@ -12,7 +12,7 @@
       },
       {
         "Quantity": 4,
-        "ResourceTypeId": "Ingredient_Bar_Copper"
+        "ItemId": "Ingredient_Bar_Copper"
       }
     ],
     "BenchRequirement": [
@@ -60,7 +60,7 @@
       "LocalCloseSoundEventId": "SFX_Workbench_Close",
       "CompletedSoundEventId": "SFX_Workbench_Craft",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
-      "Id": "Furniture_Bench"
+      "Id": "Kweebot_Bench"
     },
     "State": {
       "Id": "crafting",
