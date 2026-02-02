@@ -59,5 +59,35 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Adamantite.png"
+  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Adamantite.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Kweebot_Bench",
+        "Categories": [
+          "Kweebot_Upgrade"
+        ],
+        "Type": "Crafting"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 10
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Sleeping_Kweebot_Cobalt",
+        "Quantity": 1
+      }
+    ],
+    "TimeSeconds": 3
+  }
 }

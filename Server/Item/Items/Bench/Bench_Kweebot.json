@@ -51,6 +51,11 @@
           "Name": "benchCategories.kweebot.build"
         },
         {
+          "Id": "Kweebot_Upgrade",
+          "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
+          "Name": "benchCategories.kweebot.upgrade"
+        },
+        {
           "Id": "Kweebot_Repair",
           "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
           "Name": "benchCategories.kweebot.repair"
