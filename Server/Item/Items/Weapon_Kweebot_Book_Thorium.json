@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Weapon_Kweebot_Command_Copper.name",
-    "Description": "items.Weapon_Kweebot_Command_Copper.description"
+    "Name": "items.Weapon_Kweebot_Command_Thorium.name",
+    "Description": "items.Weapon_Kweebot_Command_Thorium.description"
   },
   "Categories": [
     "Items.Weapons"
@@ -9,7 +9,7 @@
   "Quality": "Common",
   "ItemLevel": 40,
   "Model": "Items/Weapons/Kweebot/Kweebot_Book.blockymodel",
-  "Texture": "Items/Weapons/Kweebot/Kweebot_Book_Copper.png",
+  "Texture": "Items/Weapons/Kweebot/Kweebot_Book_Thorium.png",
   "PlayerAnimationsId": "Spellbook",
   "IconProperties": {
     "Scale": 0.6,
@@ -58,7 +58,7 @@
             "0.8": {
               "Type": "RunOnBlockTypes",
               "BlockSets": [
-                "Kweebot_Copper_Set"
+                "Kweebot_Thorium_Set"
               ],
               "MaxCount": 100,
               "Range": 5,
@@ -69,7 +69,7 @@
                     "Interactions": [
                       {
                         "Type": "SpawnNPC",
-                        "EntityId": "Risen_Kweebot_Copper"
+                        "EntityId": "Risen_Kweebot_Thorium"
                       },
                       {
                         "Type": "DestroyBlock"
@@ -127,7 +127,7 @@
             "0.8": {
               "Type": "RunOnBlockTypes",
               "BlockSets": [
-                "Kweebot_Copper_Set"
+                "Kweebot_Thorium_Set"
               ],
               "MaxCount": 100,
               "Range": 5,
@@ -138,7 +138,7 @@
                     "Interactions": [
                       {
                         "Type": "SpawnNPC",
-                        "EntityId": "Risen_Kweebot_Copper"
+                        "EntityId": "Risen_Kweebot_Thorium"
                       },
                       {
                         "Type": "DestroyBlock"
@@ -175,5 +175,5 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Copper.png"
+  "Icon": "Icons/ItemsGenerated/Weapon_Kweebot_Book_Thorium.png"
 }
