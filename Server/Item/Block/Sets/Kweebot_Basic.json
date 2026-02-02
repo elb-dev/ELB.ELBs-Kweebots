@@ -1,9 +1,0 @@
-{
-  "IncludeBlockTypes": [
-    "Sleeping_Kweebot_Copper",
-    "Sleeping_Kweebot_Iron",
-    "Sleeping_Kweebot_Thorium",
-    "Sleeping_Kweebot_Cobalt",
-    "Sleeping_Kweebot_Adamantite"
-  ]
-}

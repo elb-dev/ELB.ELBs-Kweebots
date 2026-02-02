@@ -59,9 +59,9 @@
             "0.8": {
               "Type": "RunOnBlockTypes",
               "BlockSets": [
-                "Kweebot_Basic"
+                "Kweebot_Adamantite_Set"
               ],
-              "MaxCount": 5,
+              "MaxCount": 100,
               "Range": 5,
               "Interactions": {
                 "Interactions": [
@@ -70,7 +70,7 @@
                     "Interactions": [
                       {
                         "Type": "SpawnNPC",
-                        "EntityId": "Risen_Kweebot_Copper"
+                        "EntityId": "Risen_Kweebot_Adamantite"
                       },
                       {
                         "Type": "DestroyBlock"
@@ -95,7 +95,47 @@
                   "ItemAnimationId": "Interact"
                 }
               }
-            }
+            },
+            "0.9": {
+              "Type": "RunOnBlockTypes",
+              "BlockSets": [
+                "Kweebot_Cobalt_Set"
+              ],
+              "MaxCount": 100,
+              "Range": 5,
+              "Interactions": {
+                "Interactions": [
+                  {
+                    "Type": "Serial",
+                    "Interactions": [
+                      {
+                        "Type": "SpawnNPC",
+                        "EntityId": "Risen_Kweebot_Cobalt"
+                      },
+                      {
+                        "Type": "DestroyBlock"
+                      },
+                      {
+                        "Type": "ModifyInventory",
+                        "AdjustHeldItemQuantity": -1
+                      }
+                    ]
+                  }
+                ]
+              },
+              "Next": {
+                "Type": "Simple",
+                "Effects": {
+                  "ItemAnimationId": "CastHurlCharged"
+                }
+              },
+              "Failed": {
+                "Type": "Simple",
+                "Effects": {
+                  "ItemAnimationId": "Interact"
+                }
+              }
+            },
           },
           "Failed": {
             "Type": "Simple",

@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Sleeping_Kweebot_Copper.name",
-    "Description": "items.Sleeping_Kweebot_Copper.description"
+    "Name": "items.Sleeping_Kweebot_Iron.name",
+    "Description": "items.Sleeping_Kweebot_Iron.description"
   },
   "Categories": [
     "Blocks.Plants"
@@ -17,7 +17,7 @@
     "CustomModelTexture": [
       {
         "Weight": 1,
-        "Texture": "Blocks/Kweebot/Textures/Sleeping/kweebot_copper_sleeping.png"
+        "Texture": "Blocks/Kweebot/Textures/Sleeping/kweebot_iron_sleeping.png"
       }
     ],
     "Flags": {},
@@ -31,13 +31,13 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
-        "DropList": "Drop_Kweebot_Copper"
+        "DropList": "Drop_Kweebot_Iron"
       }
     }
   },
   "ResourceTypes": [
     {
-      "Id": "Salvage_Copper"
+      "Id": "Salvage_Iron"
     }
   ],
   "PlayerAnimationsId": "Item",
@@ -59,5 +59,5 @@
       -29
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Copper.png"
+  "Icon": "Icons/ItemsGenerated/Sleeping_Kweebot_Iron.png"
 }
