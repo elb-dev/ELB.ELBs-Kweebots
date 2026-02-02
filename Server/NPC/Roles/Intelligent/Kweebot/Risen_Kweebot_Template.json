@@ -334,13 +334,6 @@
           },
           "Actions": [
             {
-              "Type": "DropItem",
-              "DropList": { "Compute": "DropList" },
-              "Distance": [ 0, 0 ],
-              "Delay": [ 0.0, 1.0 ],
-              "ThrowSpeed": 14.32
-            },
-            {
               "Type": "Die"
             }
           ]

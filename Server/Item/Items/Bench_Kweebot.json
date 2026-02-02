@@ -1,0 +1,114 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Bench_Kweebot.name",
+    "Description": "items.Bench_Kweebot.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "Quantity": 6,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Ingredient_Bar_Copper"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Kweebot.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Benches/Workbench3.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Workbench3_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench3",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Kweebot_Build",
+          "Icon": "Icons/CraftingCategories/Furniture/Storage.png",
+          "Name": "benchCategories.kweebot.build"
+        },
+        {
+          "Id": "Kweebot_Repair",
+          "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
+          "Name": "benchCategories.kweebot.repair"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "Id": "Furniture_Bench"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6b472f",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      13,
+      -13.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 7,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}
