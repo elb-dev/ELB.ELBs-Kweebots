@@ -33,10 +33,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Semitransparent",
-    "CustomModel": "Blocks/Benches/Workbench3.blockymodel",
+    "CustomModel": "Blocks/Benches/Kweebot_Bench.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Benches/Workbench3_Texture.png",
+        "Texture": "Blocks/Benches/Kweebot_Bench_Texture.png",
         "Weight": 1
       }
     ],
@@ -47,22 +47,22 @@
       "Categories": [
         {
           "Id": "Kweebot_Build",
-          "Icon": "Icons/CraftingCategories/Furniture/Storage.png",
+          "Icon": "Icons/CraftingCategories/Kweebot/kweebot_build.png",
           "Name": "benchCategories.kweebot.build"
         },
         {
           "Id": "Kweebot_Upgrade",
-          "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
+          "Icon": "Icons/CraftingCategories/Kweebot/kweebot_upgrade.png",
           "Name": "benchCategories.kweebot.upgrade"
         },
         {
           "Id": "Kweebot_Command",
-          "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
+          "Icon": "Icons/CraftingCategories/Kweebot/kweebot_command.png",
           "Name": "benchCategories.kweebot.command"
         },
         {
           "Id": "Kweebot_Repair",
-          "Icon": "Icons/CraftingCategories/Furniture/Beds.png",
+          "Icon": "Icons/CraftingCategories/Kweebot/kweebot_repair.png",
           "Name": "benchCategories.kweebot.repair"
         }
       ],
@@ -76,11 +76,11 @@
       "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
-          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim",
+          "CustomModelAnimation": "Blocks/Benches/Kweebot_Bench_Crafting.blockyanim",
           "Looping": true
         },
         "CraftCompletedInstant": {
-          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim"
+          "CustomModelAnimation": "Blocks/Benches/Kweebot_Bench_Crafting.blockyanim"
         }
       }
     },
@@ -119,6 +119,6 @@
     ]
   },
   "MaxStack": 1,
-  "ItemLevel": 7,
+  "ItemLevel": 20,
   "ItemSoundSetId": "ISS_Blocks_Wood"
 }

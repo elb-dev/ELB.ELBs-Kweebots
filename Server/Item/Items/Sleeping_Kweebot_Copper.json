@@ -85,5 +85,11 @@
     ],
     "TimeSeconds": 3
   },
-  "ItemLevel": 1
+  "ItemLevel": 1,
+  "ResourceTypes": [
+    {
+      "Id": "Salvage_Copper"
+    },
+    {}
+  ]
 }
