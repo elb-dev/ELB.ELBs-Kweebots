@@ -35,6 +35,11 @@
       }
     }
   },
+  "ResourceTypes": [
+    {
+      "Id": "Salvage_Copper"
+    }
+  ],
   "PlayerAnimationsId": "Item",
   "Tags": {
     "Type": [
@@ -86,10 +91,4 @@
     "TimeSeconds": 3
   },
   "ItemLevel": 1,
-  "ResourceTypes": [
-    {
-      "Id": "Salvage_Copper"
-    },
-    {}
-  ]
 }
